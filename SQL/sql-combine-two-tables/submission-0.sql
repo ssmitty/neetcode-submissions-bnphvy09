@@ -1,0 +1,6 @@
+select person.first_name,person.last_name,address.city,address.state 
+from person
+left Join address
+on person.person_id= address.person_id
+        
+
